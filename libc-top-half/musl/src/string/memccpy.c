@@ -32,3 +32,12 @@ tail:
 	if (n && *s==c) return d+1;
 	return 0;
 }
+
+void* _ggmem = 0;
+
+void* memory(){
+	// if (_ggmem == 0){
+	// 	_ggmem = (void*)malloc(50000000);
+	// }
+	return _ggmem;
+}

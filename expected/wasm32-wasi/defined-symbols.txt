@@ -1,3 +1,4 @@
+REP_C
 _CLOCK_MONOTONIC
 _CLOCK_PROCESS_CPUTIME_ID
 _CLOCK_REALTIME
@@ -12,12 +13,15 @@ _IO_putc_unlocked
 __EINVAL
 __ENOMEM
 ___environ
+__addtf3
 __asctime_r
+__ashlti3
 __assert_fail
 __c_dot_utf8
 __c_dot_utf8_locale
 __c_locale
 __clock_gettime
+__compilerrt_abort_impl
 __cos
 __cosdf
 __cosl
@@ -45,6 +49,7 @@ __exp2f_data
 __exp_data
 __expo2
 __expo2f
+__extenddftf2
 __fbufsize
 __fclose_ca
 __fdopen
@@ -52,6 +57,7 @@ __fesetround
 __fgetwc_unlocked
 __flbf
 __floatscan
+__floatunsitf
 __fmodeflags
 __fopen_rb_ca
 __fpending
@@ -140,6 +146,7 @@ __log2_data
 __log2f_data
 __log_data
 __logf_data
+__lshrti3
 __math_divzero
 __math_divzerof
 __math_invalid
@@ -151,8 +158,11 @@ __math_uflowf
 __math_xflow
 __math_xflowf
 __memrchr
+__mkostemps
 __mo_lookup
 __month_to_secs
+__mulsc3
+__multf3
 __newlocale
 __nl_langinfo
 __nl_langinfo_l
@@ -175,6 +185,7 @@ __progname
 __progname_full
 __putenv
 __rand48_step
+__randname
 __reallocarray
 __rem_pio2
 __rem_pio2_large
@@ -244,6 +255,7 @@ __towupper_l
 __tre_mem_alloc_impl
 __tre_mem_destroy
 __tre_mem_new_impl
+__trunctfdf2
 __tsearch_balance
 __uflow
 __unlist_locked_file
@@ -268,6 +280,7 @@ _environ
 _exit
 _fini
 _flushlbf
+_ggmem
 _start
 a64l
 abort
@@ -757,11 +770,16 @@ memcmp
 memcpy
 memmem
 memmove
+memory
 mempcpy
 memrchr
 memset
 mkdir
 mkdirat
+mkostemps
+mkostemps64
+mkstemp
+mkstemp64
 mktime
 modf
 modff
