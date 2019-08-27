@@ -41,6 +41,9 @@ long strtol (const char *__restrict, char **__restrict, int);
 unsigned long strtoul (const char *__restrict, char **__restrict, int);
 long long strtoll (const char *__restrict, char **__restrict, int);
 unsigned long long strtoull (const char *__restrict, char **__restrict, int);
+typedef float TFtype __attribute__ ((mode (TF)));
+typedef float DFtype __attribute__ ((mode (DF)));
+typedef unsigned int USItype __attribute__ ((mode (SI)));
 
 int rand (void);
 void srand (unsigned);
@@ -55,6 +58,13 @@ void *aligned_alloc(size_t, size_t);
 
 _Noreturn void abort (void);
 int atexit (void (*) (void));
+int mkstemp(char *template);
+TFtype __extenddftf2 (DFtype a);
+TFtype __addtf3 (TFtype a, TFtype b);
+TFtype __floatunsitf (USItype i);
+TFtype __multf3 (TFtype a, TFtype b);
+DFtype __trunctfdf2 (TFtype a);
+
 _Noreturn void exit (int);
 _Noreturn void _Exit (int);
 int at_quick_exit (void (*) (void));

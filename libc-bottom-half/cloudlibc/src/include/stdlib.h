@@ -118,8 +118,12 @@ long a64l(const char *);
 #endif
 _Noreturn void abort(void);
 #ifdef __wasilibc_unmodified_upstream
+typedef float TFtype __attribute__ ((mode (TF)));
+typedef float DFtype __attribute__ ((mode (DF)));
 int abs(int) __pure2;
 int at_quick_exit(void (*)(void));
+TFtype__extenddftf2 (DFtype a);
+int mkstemp(char *template);
 int atexit(void (*)(void));
 void *aligned_alloc(size_t, size_t);
 __uint32_t arc4random(void);

@@ -90,6 +90,18 @@ LIBC_TOP_HALF_MUSL_SOURCES = \
     $(LIBC_TOP_HALF_MUSL_SRC_DIR)/fenv/fesetexceptflag.c \
     $(LIBC_TOP_HALF_MUSL_SRC_DIR)/fenv/fegetexceptflag.c \
     $(LIBC_TOP_HALF_MUSL_SRC_DIR)/fenv/feholdexcept.c \
+    $(LIBC_TOP_HALF_MUSL_SRC_DIR)/soft-fp/extenddftf2.c \
+    $(LIBC_TOP_HALF_MUSL_SRC_DIR)/soft-fp/ashlti3.c \
+    $(LIBC_TOP_HALF_MUSL_SRC_DIR)/soft-fp/addtf3.c \
+    $(LIBC_TOP_HALF_MUSL_SRC_DIR)/soft-fp/floatunsitf.c \
+    $(LIBC_TOP_HALF_MUSL_SRC_DIR)/soft-fp/int_util.c \
+    $(LIBC_TOP_HALF_MUSL_SRC_DIR)/soft-fp/lshrti3.c \
+    $(LIBC_TOP_HALF_MUSL_SRC_DIR)/soft-fp/mulsc3.c \
+    $(LIBC_TOP_HALF_MUSL_SRC_DIR)/soft-fp/multf3.c \
+    $(LIBC_TOP_HALF_MUSL_SRC_DIR)/soft-fp/trunctfdf2.c \
+    $(LIBC_TOP_HALF_MUSL_SRC_DIR)/temp/mkstemp.c \
+    $(LIBC_TOP_HALF_MUSL_SRC_DIR)/temp/mkostemps.c \
+    $(LIBC_TOP_HALF_MUSL_SRC_DIR)/temp/__randname.c \
     $(LIBC_TOP_HALF_MUSL_SRC_DIR)/exit/exit.c \
     $(LIBC_TOP_HALF_MUSL_SRC_DIR)/exit/atexit.c \
     $(LIBC_TOP_HALF_MUSL_SRC_DIR)/exit/assert.c \
